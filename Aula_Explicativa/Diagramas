@@ -19,3 +19,27 @@ public class PessoaFisica extends Pessoa{
    return(rg);
    }
 }
+
+
+
+public class PessoaJuridica extends Pessoa{
+   private String cnpj;
+   public void setCnpj(String cnpj){
+   this.cnpj = cnpj;
+   }
+   public String getNome(){
+   return(cnpj);
+   }
+}
+
+
+
+public class Funcionario extends PessoaFisica{
+   private String cartao;
+   public void setCartao(String cartao){
+   this.cartao = cartao;
+   }
+   public String getNome(){
+   return(cartao);
+   }
+}
