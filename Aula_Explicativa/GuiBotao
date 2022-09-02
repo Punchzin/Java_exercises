@@ -1,0 +1,25 @@
+import java.awt.event.*;
+import javax.swing.*;
+
+public class GuiBotao extends JPanel{
+	private JButton btMensagem, btTeimoso;
+	private ImageIcon imageIconi;
+	
+	public GuiBotao() {
+		inicializarComponentes();
+		definirEventos();
+	}
+	
+	private void inicializarComponentes() {
+		setLayout(null);
+		imageIconi = new ImageIcon("icones/java.jpg");
+		btMensagem = new JButton("Mensagem", imageIconi);
+		btMensagem.setBounds(50, 10, 180, 55);
+		btMensagem.setMensagem.Mnemonic(KeyEvent.VK_M);
+		btMensagem.setToolTipText("Clique aqui para ver a mensagem");
+		btTeimoso = new JButton("Teimoso");
+		btTeimoso.setBounds(50, 70, 100, 25);
+		add(btMensagem);
+		add(btTeimoso);
+	}
+}
