@@ -15,7 +15,7 @@ public class GuiBotao extends JPanel{
 		imageIconi = new ImageIcon("icones/java.jpg");
 		btMensagem = new JButton("Mensagem", imageIconi);
 		btMensagem.setBounds(50, 10, 180, 55);
-		btMensagem.setMensagem.Mnemonic(KeyEvent.VK_M);
+		btMensagem.setMnemonic(KeyEvent.VK_M);
 		btMensagem.setToolTipText("Clique aqui para ver a mensagem");
 		btTeimoso = new JButton("Teimoso");
 		btTeimoso.setBounds(50, 70, 100, 25);
@@ -36,7 +36,7 @@ public class GuiBotao extends JPanel{
 	});
 		
 		btTeimoso.addMouseListener(new MouseListener() {
-			public void mouseCliked(MouseEvent e) {}
+			public void mouseClicked(MouseEvent e) {}
 			public void mousePressed(MouseEvent e) {}
 			public void mouseReleased(MouseEvent e) {}
 			public void mouseEntered(MouseEvent e) {
