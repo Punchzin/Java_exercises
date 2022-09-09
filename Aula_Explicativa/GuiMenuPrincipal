@@ -6,7 +6,7 @@ public class GuiMenuPrincipal extends JFrame{
     private Container contentPane;
     private JMenuBar mnBarra;
     private JMenu mnArquivo, mnExemplos;
-    private JMenuItem miSair, miBotao;
+    private JMenuItem miSair, miBotao, miCaixaOpcao;
     
     public GuiMenuPrincipal(){
         inicializarComponentes();
@@ -27,6 +27,7 @@ public class GuiMenuPrincipal extends JFrame{
         miBotao = new JMenuItem("Botao");
         mnArquivo.add(miSair);
         mnExemplos.add(miBotao);
+        mnExemplos.add(miCaixaOpcao);
         mnBarra.add(mnArquivo);
         mnBarra.add(mnExemplos);
         setJMenuBar(mnBarra);
@@ -41,9 +42,20 @@ public class GuiMenuPrincipal extends JFrame{
          });
              
              miBotao.addActionListener(new ActionListener(){
-             public void actionPerfomed(ActionEvent e){
-             //aqui vai o código para chamr o exemplo8.3
-                }
+            	 public void actionPerfomed(ActionEvent e){
+            		 GuiBotao botao = new GuiBotao();
+            		 contentPane.removeAll();
+            		 contentPane.add(botao);
+            		 contentPane.validate();
+            	 }
+            	 
+            	 miCaixaOpcao.addActionListener(new ActionListener(){
+                	 public void actionPerfomed(ActionEvent e){
+                		 GuiCaixaOpcao caixa = new GuiCaixaOpcao();
+                		 contentPane.removeAll();
+                		 contentPane.add(caixa);
+                		 contentPane.validate();
+                	 }
 
                  @Override
                  public void actionPerformed(ActionEvent arg0) {
