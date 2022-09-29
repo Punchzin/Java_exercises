@@ -1,0 +1,30 @@
+/*Emilly Vitória e Paulo Vitor*/
+
+//linhas 4 e 5 são a importação das classes
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class ex3 {
+	public static void main(String []args) {
+	
+	double c1, c2, c3;
+	double tot;
+	
+	//na linha abaixo o decimal format é usado para limitar o numero de casas que serão mostradas no valor final.
+	DecimalFormat dc = new DecimalFormat("0.00");
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("Qual o valor da sua conta 1?");
+	c1 = sc.nextDouble();
+	
+	System.out.println("Qual o valor da sua conta 2?");
+	c2 = sc.nextDouble();
+	
+	System.out.println("Qual o valor da sua conta 3?");
+	c3 = sc.nextDouble();
+	
+	tot = (c1 + c2 + c3) / 3;
+	
+	System.out.println("Sua média do valor das contas é de R$" + dc.format(tot));
+	}
+}
