@@ -1,0 +1,17 @@
+import java.util.Scanner; 
+
+public class ex2 {
+	public static void main(String []args) {
+		int distancia;
+		int combustivel = 12;
+		int total;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Qual a distancia que você percorreu? (KM)");
+		distancia = sc.nextInt();
+		
+		total = distancia / combustivel;
+		
+		System.out.println("Serão suficientes " + total + " Litros para a sua viagem!");
+	}
+}
