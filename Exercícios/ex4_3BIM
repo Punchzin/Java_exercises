@@ -1,3 +1,9 @@
+/*
+ * Emilly Vitória e Paulo Vitor
+ * 
+ * 4 - Faça a tabuada do número 7 de 1 a 10.
+ */
+
 import java.util.Scanner;
 
 public class ex4 {
