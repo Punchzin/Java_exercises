@@ -1,4 +1,10 @@
-public class ex1 {
+/*
+ * Emilly Vitória e Paulo Vitor
+ *
+ * 1 - Faça um programa em Java que calcule a qualidade de litros de combustível em um percurso de 300km de distância. Sendo que o consumo de combustível é de 12km por litro.
+ */
+	
+	public class ex1 {
 	public static void main(String []args) {
 		int percurso = 300;
 		int combustivel = 12;
