@@ -1,3 +1,9 @@
+/*
+ * Emilly Vitória e Paulo Vitor
+ * 
+ * 2 - Faça um programa com a distância percorrida por un veículo e o consumo de combustível, calcule quantos litros serão suficientes.
+ */
+
 import java.util.Scanner; 
 
 public class ex2 {
