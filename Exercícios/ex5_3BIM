@@ -1,1 +1,16 @@
+/*
+ * Emilly Vitória e Paulo Vitor
+ * 
+ * 5 - Faça um programa em Java que Peça uma tela de lógica com usuário e senha. 
+ */
 
+ import java.util.JOptionPane;
+ import java.awt.*;
+ import java.awt.event.*;
+ import javax.swing.*;
+
+ public class ex5 extends JFrame{
+    public void main (String []args){
+        
+    }
+ }
