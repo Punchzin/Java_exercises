@@ -1,4 +1,8 @@
-/*Emilly Vitória e Paulo Vitor*/
+/*
+ * Emilly Vitória e Paulo Vitor
+ * 
+ * 3 - Calcule a média de gastos mensais de uma família. Peça o nome da conta e seu valor. De no mínimo 3 contas.
+ */
 
 //linhas 4 e 5 são a importação das classes
 import java.util.Scanner;
@@ -10,7 +14,7 @@ public class ex3 {
 	double c1, c2, c3;
 	double tot;
 	
-	//na linha abaixo o decimal format é usado para limitar o numero de casas que serão mostradas no valor final.
+	//Na linha abaixo o decimal format é usado para limitar o numero de casas que serão mostradas no valor final.
 	DecimalFormat dc = new DecimalFormat("0.00");
 	Scanner sc = new Scanner(System.in);
 	
