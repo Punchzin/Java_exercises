@@ -8,16 +8,22 @@ import java.util.Scanner;
 
 public class ex2 {
 	public static void main(String []args) {
+		//linhas 12 até 14, criação de variáveis.
 		int distancia;
 		int combustivel = 12;
 		int total;
+
+		//
 		Scanner sc = new Scanner(System.in);
 		
+		//linha 20, pegando e armazenando os valores digitados pelo user.
 		System.out.println("Qual a distancia que você percorreu? (KM)");
 		distancia = sc.nextInt();
 		
+		//linha 22, divisão dos valores e atribuição á uma variavel.
 		total = distancia / combustivel;
 		
+		//linha 25, exibindo na tela o valor final.
 		System.out.println("Serão suficientes " + total + " Litros para a sua viagem!");
 	}
 }
