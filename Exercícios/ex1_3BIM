@@ -4,14 +4,18 @@
  * 1 - Faça um programa em Java que calcule a qualidade de litros de combustível em um percurso de 300km de distância. Sendo que o consumo de combustível é de 12km por litro.
  */
 	
-	public class ex1 {
+public class ex1 {
 	public static void main(String []args) {
+		//linhas 10 até 12, criação de variáveis.
 		int percurso = 300;
 		int combustivel = 12;
 		int total;
 		 
+		//linha 15, divisão dos valores e atribuição á uma variavel.
 		total = percurso / combustivel; 
 		
+		//linha 18, exibindo na tela o valor final.
 		System.out.println("A quantidade de combustivel necessaria para o percurso é de " + total + " Litros");
 	}
 }
+    
