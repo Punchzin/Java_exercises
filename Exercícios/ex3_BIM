@@ -11,10 +11,11 @@ import java.text.DecimalFormat;
 public class ex3 {
 	public static void main(String []args) {
 	
+	//linhas 15 e 16, declaração de variaveis de ponto flutuante. 
 	double c1, c2, c3;
 	double tot;
 	
-	//Na linha abaixo o decimal format é usado para limitar o numero de casas que serão mostradas no valor final.
+	//linha 19, o decimal format é usado para limitar o numero de casas que serão mostradas no valor final.
 	DecimalFormat dc = new DecimalFormat("0.00");
 	Scanner sc = new Scanner(System.in);
 	
